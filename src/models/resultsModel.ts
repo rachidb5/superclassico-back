@@ -7,7 +7,7 @@ interface IResult {
   }
 
 const resultsSchema = new Schema<IResult>({
-    date: { type: Date },
+    date: { type: Date, },
     partidas: { type: Object },
     gols: {type: Object}
 }, { versionKey: false });
